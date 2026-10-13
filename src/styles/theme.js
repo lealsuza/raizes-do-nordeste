@@ -1,0 +1,37 @@
+export const theme = {
+  colors: {
+    primary: '#C84B0F',
+    primaryHover: '#a83a08',
+    secondaryBtn: '#E8A020',
+    secondaryBtnHover: '#c98818',
+    background: '#FFF4DF',
+    backgroundLight: '#FAF0E4',
+    white: '#FFFFFF',
+    text: '#1C1C1C',
+    textLight: '#4A4A4A',
+    border: '#E0CDB8',
+    tagBg: '#FFF3E0',
+    tagText: '#C84B0F',
+    cardBg: '#FFFFFF',
+    green: '#2D7A3A',
+    blue: '#1A5FA8',
+    footerBg: '#FFF4DF',
+    footerText: '#4A4A4A',
+  },
+  fonts: {
+    body: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+    serif: "Georgia, 'Times New Roman', serif",
+  },
+  borderRadius: {
+    sm: '6px',
+    md: '12px',
+    lg: '16px',
+    xl: '24px',
+    full: '9999px',
+  },
+  shadows: {
+    card: '0 2px 16px rgba(0,0,0,0.07)',
+    cardHover: '0 8px 28px rgba(0,0,0,0.11)',
+    nav: '0 1px 0px rgba(0,0,0,0.06)',
+  },
+};
